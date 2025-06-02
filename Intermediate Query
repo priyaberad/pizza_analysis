@@ -17,7 +17,7 @@ ORDER BY 2 DESC
 SELECT 
     HOUR(order_time) AS Hour, COUNT(order_id) AS Total_Order
 FROM
-    orders
+    pizza_sales
 GROUP BY 1
 ORDER BY 2 DESC
 
